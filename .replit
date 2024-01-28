@@ -1,0 +1,26 @@
+run = ["./python/main.sh"]
+
+entrypoint = "main.sh"
+
+[nix]
+channel = "stable-22_11"
+
+[[ports]]
+localPort = 10001
+externalPort = 9527
+
+[[ports]]
+localPort = 20000
+externalPort = 9527
+
+[[ports]]
+localPort = 30000
+externalPort = 9527
+
+[[ports]]
+localPort = 40000
+externalPort = 9527
+
+[[ports]]
+localPort = 50000
+externalPort = 9527
